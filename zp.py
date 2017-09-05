@@ -3,7 +3,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-req = input('Введите текст запроса. Разделяйте слова символом \"+\"\n')
+req = input('Input text of request. Please, separate words by sumbol \"+\"\n')
 page = 1
 os.makedirs('pics/' + str(req), mode=0o777, exist_ok=True)
 while 1:
